@@ -1,0 +1,17 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyD8OxZpCOEOWVbOiX9UwhqYW5mFPYC7PVE",
+  authDomain: "medico-platform-proto.firebaseapp.com",
+  projectId: "medico-platform-proto",
+  storageBucket: "medico-platform-proto.firebasestorage.app",
+  messagingSenderId: "781589052057",
+  appId: "1:781589052057:web:612b7f7ea250c7eeb81608"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);

@@ -1,7 +1,7 @@
 "use client"
 
 export function useBackendUrl() {
-  return process.env.NEXT_PUBLIC_BACKEND_URL || "http://localhost:8001"
+  return process.env.NEXT_PUBLIC_BACKEND_URL || "http://127.0.0.1:8001"
 }
 
 async function fetchJson(url: string, init?: RequestInit) {
